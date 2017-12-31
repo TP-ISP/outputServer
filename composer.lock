@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "034dd9e08d8c69491ee462bbd2c42f1c",
+    "content-hash": "eee21dd9e4812d665b1e7d00971659e6",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -318,6 +318,54 @@
                 "trusted proxy"
             ],
             "time": "2017-06-15T17:19:42+00:00"
+        },
+        {
+            "name": "heartsentwined/file-system-manager",
+            "version": "v2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yalesov/php-file-system-manager.git",
+                "reference": "df109b72195195a0c435acf0926db74052066078"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/yalesov/php-file-system-manager/df109b72195195a0c435acf0926db74052066078.zip",
+                "reference": "df109b72195195a0c435acf0926db74052066078",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "yalesov/arg-validator": "2.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Yalesov\\FileSystemManager": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Yulij Andreevich Lesov",
+                    "email": "yalesov@gmail.com"
+                }
+            ],
+            "description": "A collection of file and directory management functions.",
+            "homepage": "https://github.com/yalesov/php-file-system-manager",
+            "keywords": [
+                "dir",
+                "directory",
+                "file",
+                "manager",
+                "system"
+            ],
+            "time": "2016-07-06T12:20:42+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -2325,6 +2373,53 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "yalesov/arg-validator",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yalesov/php-arg-validator.git",
+                "reference": "d8fcc0ef3f1f4ec1026aaa2068ada11900b94226"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/yalesov/php-arg-validator/d8fcc0ef3f1f4ec1026aaa2068ada11900b94226.zip",
+                "reference": "d8fcc0ef3f1f4ec1026aaa2068ada11900b94226",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Yalesov\\ArgValidator": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Yulij Andreevich Lesov",
+                    "email": "yalesov@gmail.com"
+                }
+            ],
+            "description": "Validate function arguments, extending typehinting capabilities of PHP.",
+            "homepage": "https://github.com/yalesov/php-arg-validator",
+            "keywords": [
+                "argument",
+                "typehint",
+                "typehinting",
+                "validate",
+                "validator"
+            ],
+            "time": "2016-07-06T12:16:30+00:00"
         }
     ],
     "packages-dev": [
